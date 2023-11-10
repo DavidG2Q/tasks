@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* estartup  */
+.home .nav .spart {
+    margin-left: 3%;
+    float: left;
+    font-size: larger;
+    font-family: cursive;
+    color: darkgray;
+    font-weight: bold;
+
+}
+
+/* color the first letter */
+.home .nav .spart::first-letter {
+    margin-left: 10px;
+    font-size: 100%;
+    color: rgb(17, 165, 17);
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+/* remove list dots */
+.home .nav .spart {
+    list-style-type: none;
+    margin-left: 5;
+}
+
+/* move the sections to the right */
+.home .nav ul li {
+    padding: 2px;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    /* move  to the right side */
+}
+
+
+/* underline removal */
+.home .nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* coloring of the word home */
+.home #hhh {
+    color: green;
+}
+
+/* green when hoovering */
+.home .nav ul a:hover {
+    color: green;
+
+}
+
+/* title  */
+#t1 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 48px;
+    font-weight: 700;
+
+    font-family: "Philosopher", sans-serif;
+    color: #71c55d;
+}
+
+/* paragraph  */
+.home p {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+/* resize image */
+.home img#i1 {
+    text-align: center;
+    margin-top: 2%;
+    width: 50%;
+    height: auto;
+}
+
+
+/* image div */
+.home .di1 {
+
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.home .button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.home .button a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 13px 37px;
+    border-radius: 50px;
+    border: 2px solid #71c55d;
+    color: #71c55d;
+    text-decoration: none;
+    /* removes anchor underlining*/
+    display: inline-block;
+}
+
+/* styling of a href */
+.home .stores a {
+    left: 38%;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 40px;
+    color: rgb(146, 141, 141);
+}
+
+.home .stores a:hover {
+    color: #71c55d;
+}
+
+.home .stores {
+    margin-top: 20px;
+    left: 4%;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 19px;
+
+}
+
+/* resize background image */
+#bg2 {
+    width: 100%;
+    height: auto;
+}
